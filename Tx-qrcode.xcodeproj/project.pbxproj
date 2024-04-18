@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		563A4C972BD0BB1000E84321 /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = 563A4C962BD0BB1000E84321 /* BigInt */; };
+		563A4C9F2BD0C89400E84321 /* TxQRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4C9E2BD0C89400E84321 /* TxQRApp.swift */; };
+		563A4CA12BD0C89400E84321 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CA02BD0C89400E84321 /* ContentView.swift */; };
+		563A4CA32BD0C89500E84321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563A4CA22BD0C89500E84321 /* Assets.xcassets */; };
+		563A4CA62BD0C89500E84321 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563A4CA52BD0C89500E84321 /* Preview Assets.xcassets */; };
+		563A4CAF2BD0CA2F00E84321 /* messages-ethereum.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CAB2BD0CA2F00E84321 /* messages-ethereum.pb.swift */; };
+		563A4CB02BD0CA2F00E84321 /* messages-ethereum.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CAB2BD0CA2F00E84321 /* messages-ethereum.pb.swift */; };
+		563A4CB12BD0CA2F00E84321 /* messages.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CAC2BD0CA2F00E84321 /* messages.pb.swift */; };
+		563A4CB22BD0CA2F00E84321 /* messages.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CAC2BD0CA2F00E84321 /* messages.pb.swift */; };
+		563A4CB32BD0CA2F00E84321 /* messages-common.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CAD2BD0CA2F00E84321 /* messages-common.pb.swift */; };
+		563A4CB42BD0CA2F00E84321 /* messages-common.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CAD2BD0CA2F00E84321 /* messages-common.pb.swift */; };
+		563A4CB52BD0CA2F00E84321 /* messages-ethereum-definitions.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CAE2BD0CA2F00E84321 /* messages-ethereum-definitions.pb.swift */; };
+		563A4CB62BD0CA2F00E84321 /* messages-ethereum-definitions.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CAE2BD0CA2F00E84321 /* messages-ethereum-definitions.pb.swift */; };
+		563A4CB82BD0CA7300E84321 /* TxQRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CB72BD0CA7300E84321 /* TxQRView.swift */; };
+		563A4CB92BD0CA7300E84321 /* TxQRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563A4CB72BD0CA7300E84321 /* TxQRView.swift */; };
+		563A4CBC2BD0CED000E84321 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 563A4CBB2BD0CED000E84321 /* SwiftProtobuf */; };
+		563A4CBE2BD0CEDD00E84321 /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 563A4CBD2BD0CEDD00E84321 /* SwiftProtobufPluginLibrary */; };
+		563A4CC02BD0CEEA00E84321 /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = 563A4CBF2BD0CEEA00E84321 /* BigInt */; };
 		5657195A2BCE59A600928465 /* Tx_qrcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719592BCE59A600928465 /* Tx_qrcodeApp.swift */; };
 		5657195C2BCE59A600928465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5657195B2BCE59A600928465 /* ContentView.swift */; };
 		5657195E2BCE59A800928465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5657195D2BCE59A800928465 /* Assets.xcassets */; };
 		565719612BCE59A800928465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565719602BCE59A800928465 /* Preview Assets.xcassets */; };
+		5657196A2BCF679100928465 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 565719692BCF679100928465 /* SwiftProtobuf */; };
+		5657196C2BCF679100928465 /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 5657196B2BCF679100928465 /* SwiftProtobufPluginLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		563A4C9C2BD0C89400E84321 /* TxQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TxQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		563A4C9E2BD0C89400E84321 /* TxQRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxQRApp.swift; sourceTree = "<group>"; };
+		563A4CA02BD0C89400E84321 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		563A4CA22BD0C89500E84321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		563A4CA52BD0C89500E84321 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		563A4CAB2BD0CA2F00E84321 /* messages-ethereum.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "messages-ethereum.pb.swift"; path = "pb/messages-ethereum.pb.swift"; sourceTree = SOURCE_ROOT; };
+		563A4CAC2BD0CA2F00E84321 /* messages.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = messages.pb.swift; path = pb/messages.pb.swift; sourceTree = SOURCE_ROOT; };
+		563A4CAD2BD0CA2F00E84321 /* messages-common.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "messages-common.pb.swift"; path = "pb/messages-common.pb.swift"; sourceTree = SOURCE_ROOT; };
+		563A4CAE2BD0CA2F00E84321 /* messages-ethereum-definitions.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "messages-ethereum-definitions.pb.swift"; path = "pb/messages-ethereum-definitions.pb.swift"; sourceTree = SOURCE_ROOT; };
+		563A4CB72BD0CA7300E84321 /* TxQRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxQRView.swift; sourceTree = "<group>"; };
 		565719562BCE59A600928465 /* Tx-qrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tx-qrcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		565719592BCE59A600928465 /* Tx_qrcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tx_qrcodeApp.swift; sourceTree = "<group>"; };
 		5657195B2BCE59A600928465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,21 +53,72 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		563A4C992BD0C89400E84321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563A4CC02BD0CEEA00E84321 /* BigInt in Frameworks */,
+				563A4CBE2BD0CEDD00E84321 /* SwiftProtobufPluginLibrary in Frameworks */,
+				563A4CBC2BD0CED000E84321 /* SwiftProtobuf in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		565719532BCE59A600928465 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563A4C972BD0BB1000E84321 /* BigInt in Frameworks */,
+				5657196C2BCF679100928465 /* SwiftProtobufPluginLibrary in Frameworks */,
+				5657196A2BCF679100928465 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		563A4C9D2BD0C89400E84321 /* TxQR */ = {
+			isa = PBXGroup;
+			children = (
+				563A4C9E2BD0C89400E84321 /* TxQRApp.swift */,
+				563A4CA02BD0C89400E84321 /* ContentView.swift */,
+				563A4CA22BD0C89500E84321 /* Assets.xcassets */,
+				563A4CA42BD0C89500E84321 /* Preview Content */,
+			);
+			path = TxQR;
+			sourceTree = "<group>";
+		};
+		563A4CA42BD0C89500E84321 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				563A4CA52BD0C89500E84321 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		563A4CAA2BD0C9CB00E84321 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				563A4CB72BD0CA7300E84321 /* TxQRView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		563A4CBA2BD0CED000E84321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5657194D2BCE59A600928465 = {
 			isa = PBXGroup;
 			children = (
+				563A4CAA2BD0C9CB00E84321 /* views */,
+				5657196E2BCF6F7100928465 /* pb */,
 				565719582BCE59A600928465 /* Tx-qrcode */,
+				563A4C9D2BD0C89400E84321 /* TxQR */,
 				565719572BCE59A600928465 /* Products */,
+				563A4CBA2BD0CED000E84321 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				565719562BCE59A600928465 /* Tx-qrcode.app */,
+				563A4C9C2BD0C89400E84321 /* TxQR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +151,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5657196E2BCF6F7100928465 /* pb */ = {
+			isa = PBXGroup;
+			children = (
+				563A4CAD2BD0CA2F00E84321 /* messages-common.pb.swift */,
+				563A4CAE2BD0CA2F00E84321 /* messages-ethereum-definitions.pb.swift */,
+				563A4CAB2BD0CA2F00E84321 /* messages-ethereum.pb.swift */,
+				563A4CAC2BD0CA2F00E84321 /* messages.pb.swift */,
+			);
+			name = pb;
+			path = "Tx-qrcode";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		563A4C9B2BD0C89400E84321 /* TxQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563A4CA72BD0C89500E84321 /* Build configuration list for PBXNativeTarget "TxQR" */;
+			buildPhases = (
+				563A4C982BD0C89400E84321 /* Sources */,
+				563A4C992BD0C89400E84321 /* Frameworks */,
+				563A4C9A2BD0C89400E84321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TxQR;
+			packageProductDependencies = (
+				563A4CBB2BD0CED000E84321 /* SwiftProtobuf */,
+				563A4CBD2BD0CEDD00E84321 /* SwiftProtobufPluginLibrary */,
+				563A4CBF2BD0CEEA00E84321 /* BigInt */,
+			);
+			productName = TxQR;
+			productReference = 563A4C9C2BD0C89400E84321 /* TxQR.app */;
+			productType = "com.apple.product-type.application";
+		};
 		565719552BCE59A600928465 /* Tx-qrcode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 565719652BCE59A800928465 /* Build configuration list for PBXNativeTarget "Tx-qrcode" */;
@@ -85,6 +201,11 @@
 			dependencies = (
 			);
 			name = "Tx-qrcode";
+			packageProductDependencies = (
+				565719692BCF679100928465 /* SwiftProtobuf */,
+				5657196B2BCF679100928465 /* SwiftProtobufPluginLibrary */,
+				563A4C962BD0BB1000E84321 /* BigInt */,
+			);
 			productName = "Tx-qrcode";
 			productReference = 565719562BCE59A600928465 /* Tx-qrcode.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +220,9 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					563A4C9B2BD0C89400E84321 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					565719552BCE59A600928465 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -113,16 +237,30 @@
 				Base,
 			);
 			mainGroup = 5657194D2BCE59A600928465;
+			packageReferences = (
+				565719682BCF679100928465 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				563A4C952BD0BB1000E84321 /* XCRemoteSwiftPackageReference "BigInt" */,
+			);
 			productRefGroup = 565719572BCE59A600928465 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				565719552BCE59A600928465 /* Tx-qrcode */,
+				563A4C9B2BD0C89400E84321 /* TxQR */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		563A4C9A2BD0C89400E84321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563A4CA62BD0C89500E84321 /* Preview Assets.xcassets in Resources */,
+				563A4CA32BD0C89500E84321 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		565719542BCE59A600928465 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,18 +273,100 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		563A4C982BD0C89400E84321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563A4CB92BD0CA7300E84321 /* TxQRView.swift in Sources */,
+				563A4CB22BD0CA2F00E84321 /* messages.pb.swift in Sources */,
+				563A4CB42BD0CA2F00E84321 /* messages-common.pb.swift in Sources */,
+				563A4CB62BD0CA2F00E84321 /* messages-ethereum-definitions.pb.swift in Sources */,
+				563A4CA12BD0C89400E84321 /* ContentView.swift in Sources */,
+				563A4C9F2BD0C89400E84321 /* TxQRApp.swift in Sources */,
+				563A4CB02BD0CA2F00E84321 /* messages-ethereum.pb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		565719522BCE59A600928465 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563A4CB82BD0CA7300E84321 /* TxQRView.swift in Sources */,
+				563A4CB12BD0CA2F00E84321 /* messages.pb.swift in Sources */,
+				563A4CB32BD0CA2F00E84321 /* messages-common.pb.swift in Sources */,
+				563A4CB52BD0CA2F00E84321 /* messages-ethereum-definitions.pb.swift in Sources */,
 				5657195C2BCE59A600928465 /* ContentView.swift in Sources */,
 				5657195A2BCE59A600928465 /* Tx_qrcodeApp.swift in Sources */,
+				563A4CAF2BD0CA2F00E84321 /* messages-ethereum.pb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		563A4CA82BD0C89500E84321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TxQR/Preview Content\"";
+				DEVELOPMENT_TEAM = SM2NF667ZL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziancube.TxQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		563A4CA92BD0C89500E84321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TxQR/Preview Content\"";
+				DEVELOPMENT_TEAM = SM2NF667ZL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziancube.TxQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		565719632BCE59A800928465 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,6 +542,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		563A4CA72BD0C89500E84321 /* Build configuration list for PBXNativeTarget "TxQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563A4CA82BD0C89500E84321 /* Debug */,
+				563A4CA92BD0C89500E84321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		565719512BCE59A600928465 /* Build configuration list for PBXProject "Tx-qrcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -341,6 +570,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		563A4C952BD0BB1000E84321 /* XCRemoteSwiftPackageReference "BigInt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/attaswift/BigInt.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		565719682BCF679100928465 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		563A4C962BD0BB1000E84321 /* BigInt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 563A4C952BD0BB1000E84321 /* XCRemoteSwiftPackageReference "BigInt" */;
+			productName = BigInt;
+		};
+		563A4CBB2BD0CED000E84321 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 565719682BCF679100928465 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		563A4CBD2BD0CEDD00E84321 /* SwiftProtobufPluginLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 565719682BCF679100928465 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobufPluginLibrary;
+		};
+		563A4CBF2BD0CEEA00E84321 /* BigInt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 563A4C952BD0BB1000E84321 /* XCRemoteSwiftPackageReference "BigInt" */;
+			productName = BigInt;
+		};
+		565719692BCF679100928465 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 565719682BCF679100928465 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		5657196B2BCF679100928465 /* SwiftProtobufPluginLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 565719682BCF679100928465 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobufPluginLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5657194E2BCE59A600928465 /* Project object */;
 }

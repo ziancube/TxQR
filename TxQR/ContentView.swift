@@ -1,15 +1,15 @@
 //
 //  ContentView.swift
-//  Tx-qrcode
+//  TxQR
 //
-//  Created by xiaochen on 2024/4/16.
+//  Created by xiaochen on 2024/4/18.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TxQRView()
+       TxQRView()
     }
 }
 
